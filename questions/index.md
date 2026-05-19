@@ -1,0 +1,41 @@
+# Questions Index
+
+LLM向け: このファイルで全問題を把握し、各問題の詳細は `{pattern}/{number}_{name}/` 以下のファイルを参照。
+
+## How to use (for LLM)
+- Weekly review生成時: このindexを読む → `needs_review: true` の問題を優先 → 各`analysis.md`を読んでquizを生成
+- 新問題追加時: このindexに行を追加する
+
+## Pattern Folders
+
+| Pattern | Tier | Description |
+|---------|------|-------------|
+| `two_pointers_sliding_window/` | 1 | Array/string window problems |
+| `hash_map/` | 1 | Frequency counting, complement lookup |
+| `binary_search/` | 1 | Sorted/search-space problems |
+| `bfs_dfs/` | 1 | Tree/graph traversal |
+| `backtracking/` | 1 | Permutations, combinations, subsets |
+| `dynamic_programming/` | 2 | 1D/2D DP, Kadane's |
+| `heap_priority_queue/` | 2 | Top-K, scheduling |
+| `topological_sort/` | 2 | Dependency ordering |
+| `union_find/` | 2 | Connectivity problems |
+| `trie/` | 2 | Prefix search |
+| `monotonic_stack/` | 3 | Next greater/smaller element |
+| `bit_manipulation/` | 3 | Bitwise tricks |
+| `greedy/` | 3 | Locally optimal choices |
+| `prefix_sums/` | 3 | Prefix/suffix product or sum |
+| `math/` | 3 | GCD, number theory |
+
+## Problems
+
+| # | Problem | Pattern Folder | Difficulty | needs_review | Last Review |
+|---|---------|---------------|------------|--------------|-------------|
+| 1 | Two Sum | hash_map | Easy | true | May 18, 2026 |
+| 121 | Best Time to Buy and Sell Stock | two_pointers_sliding_window | Easy | true | May 18, 2026 |
+| 153 | Find Minimum in Rotated Sorted Array | binary_search | Medium | true | May 18, 2026 |
+| 217 | Contains Duplicate | hash_map | Easy | true | May 18, 2026 |
+| 238 | Product of Array Except Self | prefix_sums | Medium | true | May 18, 2026 |
+| 334 | Increasing Triplet Subsequence | greedy | Medium | true | May 18, 2026 |
+| 845 | Longest Mountain in Array | two_pointers_sliding_window | Medium | true | May 17, 2026 |
+| 918 | Maximum Sum Circular Subarray | dynamic_programming | Medium | true | May 18, 2026 |
+| 1071 | Greatest Common Divisor of Strings | math | Easy | true | May 18, 2026 |
