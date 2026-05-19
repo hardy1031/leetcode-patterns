@@ -1,5 +1,29 @@
 # leetcode-patterns
 
+A pattern-driven LeetCode study repository designed around an **AI-assisted learning workflow**.
+
+## AI-Assisted Workflow
+
+This repo is built with the assumption that an AI (Claude) is a collaborator in every study session — not just a hint machine, but an active part of how problems are analyzed, reviewed, and retained.
+
+**Why:** AI can explain *why* a pattern applies, generate targeted review quizzes, and give instant feedback on reasoning — things that static resources can't do. The repo structure is designed to make that collaboration as frictionless as possible.
+
+**Key files for AI context:**
+
+| File | Purpose |
+|------|---------|
+| `CLAUDE.md` | Instructs the AI on repo structure, conventions, and how to behave (e.g. don't fill in `personal_note.md` unless asked) |
+| `questions/index.md` | Master index of all problems — AI reads this first to understand what's been studied and what needs review |
+| `analysis.md` (per problem) | Layer 1/2/3 breakdown the AI uses to generate quiz questions |
+| `review_history.md` (per problem) | `needs_review` flag the AI uses to prioritize spaced review |
+
+**Typical session:**
+1. Solve a problem, discuss the pattern with AI
+2. AI helps write `analysis.md` (Layer 1/2/3 breakdown)
+3. Each week, ask AI to generate a spaced review quiz from `questions/index.md`
+
+---
+
 A pattern-driven LeetCode study repository for efficient coding interview preparation.
 
 ## Philosophy
