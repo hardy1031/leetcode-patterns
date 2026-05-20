@@ -39,3 +39,4 @@ LLM向け: このファイルで全問題を把握し、各問題の詳細は `{
 | 845 | Longest Mountain in Array | two_pointers_sliding_window | Medium | true | May 17, 2026 |
 | 918 | Maximum Sum Circular Subarray | dynamic_programming | Medium | true | May 18, 2026 |
 | 1071 | Greatest Common Divisor of Strings | math | Easy | true | May 18, 2026 |
+| 36 | Valid Sudoku | hash_map | Medium | true | May 19, 2026 |
