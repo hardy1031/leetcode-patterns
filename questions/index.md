@@ -41,3 +41,4 @@ LLM向け: このファイルで全問題を把握し、各問題の詳細は `{
 | 1071 | Greatest Common Divisor of Strings | math | Easy | true | May 18, 2026 |
 | 36 | Valid Sudoku | hash_map | Medium | true | May 19, 2026 |
 | 202 | Happy Number | hash_map | Easy | true | May 20, 2026 |
+| 128 | Longest Consecutive Sequence | hash_map | Medium | true | May 21, 2026 |
