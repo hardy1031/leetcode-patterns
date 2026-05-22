@@ -19,7 +19,11 @@ LeetCode/
 ├── CLAUDE.md
 ├── questions/
 │   ├── index.md                        # Master index — read this first
-│   └── {pattern_name}/                 # Layer 3 pattern (e.g. two_pointers_sliding_window)
+│   └── two_pointers/                   # two pointers family
+│       ├── sliding_window/             # e.g. 3, 567
+│       ├── opposite_direction/         # e.g. Two Sum sorted, Valid Palindrome
+│       └── fast_slow/                  # e.g. Linked List Cycle
+│   └── {pattern_name}/                 # other Layer 3 patterns (e.g. hash_map)
 │       └── {number}_{problem_name}/
 │           ├── question.md             # Problem statement + links
 │           ├── analysis.md             # Layer 1/2/3 breakdown
@@ -31,7 +35,7 @@ LeetCode/
 
 ## Pattern Tiers (priority order)
 
-**Tier 1 (essential):** two_pointers_sliding_window, hash_map, binary_search, bfs_dfs, backtracking
+**Tier 1 (essential):** two_pointers (sliding_window, opposite_direction, fast_slow), hash_map, binary_search, bfs_dfs, backtracking
 **Tier 2:** dynamic_programming, heap_priority_queue, topological_sort, union_find, trie
 **Tier 3:** monotonic_stack, bit_manipulation, greedy, prefix_sums, math
 
@@ -94,6 +98,21 @@ Quiz format per problem:
 - Problem title + link
 - "What is the Layer 3 pattern? Layer 2 technique? Layer 1 data structure?"
 - Link for problems worth coding immediately
+
+## Folder Subcategorization Policy
+
+Subcategorize a pattern folder only when:
+- There are 5+ problems in the folder, AND
+- Problems clearly fall into distinct sub-patterns that are easy to confuse
+
+**Already subcategorized:**
+- `two_pointers/` → sliding_window, opposite_direction, fast_slow (subcategorized early because the 3 sub-patterns are fundamentally different)
+
+**Candidates for future subcategorization:**
+- `dynamic_programming/` → 1D, 2D, interval, knapsack (DP sub-patterns differ enough to warrant early split)
+- `bfs_dfs/` → bfs, dfs, topological (when problems accumulate)
+- `binary_search/` → on_array, on_answer_space (when problems accumulate)
+- `backtracking/` → permutations, combinations, subsets (when problems accumulate)
 
 ## LLM Instructions
 
