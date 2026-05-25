@@ -45,3 +45,4 @@ LLM向け: このファイルで全問題を把握し、各問題の詳細は `{
 | 3 | Longest Substring Without Repeating Characters | two_pointers/sliding_window | Medium | true | May 22, 2026 |
 | 567 | Permutation in String | two_pointers/sliding_window | Medium | true | May 22, 2026 |
 | 424 | Longest Repeating Character Replacement | two_pointers/sliding_window | Medium | true | May 22, 2026 |
+| 125 | Valid Palindrome | two_pointers/opposite_direction | Easy | true | May 25, 2026 |
