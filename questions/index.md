@@ -47,3 +47,5 @@ LLM向け: このファイルで全問題を把握し、各問題の詳細は `{
 | 424 | Longest Repeating Character Replacement | two_pointers/sliding_window | Medium | true | May 22, 2026 |
 | 125 | Valid Palindrome | two_pointers/opposite_direction | Easy | true | May 25, 2026 |
 | 167 | Two Sum II | two_pointers/opposite_direction | Medium | true | May 25, 2026 |
+| 15 | 3Sum | two_pointers/opposite_direction | Medium | true | May 25, 2026 |
+| 11 | Container With Most Water | two_pointers/opposite_direction | Medium | true | May 25, 2026 |
