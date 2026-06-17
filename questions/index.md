@@ -11,7 +11,7 @@ LLM向け: このファイルで全問題を把握し、各問題の詳細は `{
 | Pattern | Tier | Description |
 |---------|------|-------------|
 | `two_pointers/sliding_window/` | 1 | Array/string window problems |
-| `hash_map/` | 1 | Frequency counting, complement lookup |
+| `hash_table/` | 1 | Frequency counting, complement lookup |
 | `binary_search/` | 1 | Sorted/search-space problems |
 | `bfs_dfs/` | 1 | Tree/graph traversal |
 | `backtracking/` | 1 | Permutations, combinations, subsets |
@@ -30,18 +30,18 @@ LLM向け: このファイルで全問題を把握し、各問題の詳細は `{
 
 | # | Problem | Pattern Folder | Difficulty | needs_review | Last Review |
 |---|---------|---------------|------------|--------------|-------------|
-| 1 | Two Sum | hash_map | Easy | true | May 27, 2026 |
+| 1 | Two Sum | hash_table | Easy | true | May 27, 2026 |
 | 121 | Best Time to Buy and Sell Stock | two_pointers/sliding_window | Easy | true | May 27, 2026 |
 | 153 | Find Minimum in Rotated Sorted Array | binary_search | Medium | true | May 27, 2026 |
-| 217 | Contains Duplicate | hash_map | Easy | true | May 27, 2026 |
+| 217 | Contains Duplicate | hash_table | Easy | true | May 27, 2026 |
 | 238 | Product of Array Except Self | prefix_sums | Medium | true | May 27, 2026 |
 | 334 | Increasing Triplet Subsequence | greedy | Medium | true | May 18, 2026 |
 | 845 | Longest Mountain in Array | two_pointers/opposite_direction | Medium | true | May 27, 2026 |
 | 918 | Maximum Sum Circular Subarray | dynamic_programming | Medium | true | May 18, 2026 |
 | 1071 | Greatest Common Divisor of Strings | math | Easy | true | May 18, 2026 |
-| 36 | Valid Sudoku | hash_map | Medium | true | May 27, 2026 |
-| 202 | Happy Number | hash_map | Easy | true | May 20, 2026 |
-| 128 | Longest Consecutive Sequence | hash_map | Medium | true | May 21, 2026 |
+| 36 | Valid Sudoku | hash_table | Medium | true | May 27, 2026 |
+| 202 | Happy Number | hash_table | Easy | true | May 20, 2026 |
+| 128 | Longest Consecutive Sequence | hash_table | Medium | true | May 21, 2026 |
 | 3 | Longest Substring Without Repeating Characters | two_pointers/sliding_window | Medium | true | May 22, 2026 |
 | 567 | Permutation in String | two_pointers/sliding_window | Medium | true | May 22, 2026 |
 | 424 | Longest Repeating Character Replacement | two_pointers/sliding_window | Medium | true | May 22, 2026 |

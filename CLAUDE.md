@@ -60,10 +60,13 @@ Template:
 
 ## Layer 2 — Algorithms & Techniques
 - {algorithm name} {complexity}
+- **Insight:** {why this algorithm/combination works here — e.g. "DP + greedy: dp[i] depends only on dp[i-1] so collapse to one variable", "binary search on answer space not index", "two-pass greedy"}
 
 ## Layer 1 — Data Structures
 - {data structure}
 ```
+
+**Insight is mandatory.** Name the key algorithmic idea or combination in one sentence (e.g. "DP + greedy", "monotonic stack for next greater element", "sliding window with freq map"). This is the transferable pattern to recall at interview time.
 
 ### personal_note.md
 - Critical insights only, extremely concise
