@@ -117,9 +117,48 @@ Subcategorize a pattern folder only when:
 - `binary_search/` → on_array, on_answer_space (when problems accumulate)
 - `backtracking/` → permutations, combinations, subsets (when problems accumulate)
 
+## Study Style
+
+The user follows NeetCode's roadmap, so the **broad topic** (e.g. "two pointers", "stack") is decided before each session.
+
+Within that topic, **fine-grained themes are NOT pre-decided** — they emerge organically:
+1. Solve a few problems or do spaced review within the topic
+2. Notice something unclear or generalizable mid-session (a subtle technique, a comparison, a "why does this work?")
+3. Focus on that micro-theme — search LeetCode for similar problems, drill it, solidify it
+
+Examples of micro-themes that have emerged:
+- "When should a sliding window slide?" (from 76, 424 — within the two pointers topic)
+- "3-pointer vs 2-pointer: sort costs O(n log n) but doesn't matter at O(n²)" (from 15, 16)
+- "HashMap vs Set: when do you need the value?" (from 15)
+- "exact match vs closest: what determines whether HashMap gives O(n)?" (from 1, 16)
+
+The LLM should recognize when a micro-theme is forming and surface it explicitly.
+
+## Daily Diary
+
+File location: `diary/YYYY-MM-DD.md`
+
+When the LLM detects that a study theme has emerged (a concept the user is drilling across multiple problems), write or append it to today's diary file automatically — without being asked.
+
+Diary entry format:
+```
+## Theme: {theme title}
+
+{2–3 sentences on what the theme is and what triggered it}
+
+### Key insight
+{the transferable principle in one sentence}
+
+### Problems covered
+- {number}. {title}
+```
+
+Create the diary file if it doesn't exist. One file per day. Append new themes if the file already exists.
+
 ## LLM Instructions
 
 - Do NOT write code or fill in personal_note.md unless explicitly asked
 - When creating a new problem folder, create all 4 files and update index.md
 - When updating needs_review to false, update both review_history.md and index.md
 - When generating a weekly review, create a new file in spaced_review/ — do not overwrite existing ones
+- When a study theme emerges mid-session, write it to `diary/YYYY-MM-DD.md` automatically
