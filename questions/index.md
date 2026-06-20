@@ -10,6 +10,7 @@ LLM向け: このファイルで全問題を把握し、各問題の詳細は `{
 
 | Pattern | Tier | Description |
 |---------|------|-------------|
+| `stack/` | 1 | LIFO problems — matching, nesting, monotonic |
 | `two_pointers/sliding_window/` | 1 | Array/string window problems |
 | `hash_table/` | 1 | Frequency counting, complement lookup |
 | `binary_search/` | 1 | Sorted/search-space problems |
@@ -51,3 +52,5 @@ LLM向け: このファイルで全問題を把握し、各問題の詳細は `{
 | 16 | 3Sum Closest | two_pointers/opposite_direction | Medium | true | June 19, 2026 |
 | 11 | Container With Most Water | two_pointers/opposite_direction | Medium | true | May 25, 2026 |
 | 76 | Minimum Window Substring | two_pointers/sliding_window | Hard | true | Jun 17, 2026 |
+| 20 | Valid Parentheses | stack | Easy | true | June 19, 2026 |
+| 150 | Evaluate Reverse Polish Notation | stack | Medium | true | June 19, 2026 |
