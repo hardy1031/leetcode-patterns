@@ -12,19 +12,19 @@ This repo is built with the assumption that an AI (Claude) is a collaborator in 
 
 | File | Purpose |
 |------|---------|
-| `CLAUDE.md` | Instructs the AI on repo structure, conventions, and how to behave (e.g. don't fill in `personal_note.md` unless asked) |
-| `questions/index.md` | Master index of all problems — AI reads this first to understand what's been studied and what needs review |
+| `CLAUDE.md` | Instructs the AI on repo structure, conventions, and how to behave |
+| `AGENTS.md` | Concise rules for AI agents — read alongside CLAUDE.md |
+| `questions/index.md` | Master index of all problems — AI reads this first |
 | `analysis.md` (per problem) | Layer 1/2/3 breakdown the AI uses to generate quiz questions |
 | `review_history.md` (per problem) | `needs_review` flag the AI uses to prioritize spaced review |
 
 **Typical session:**
 1. Solve a problem, discuss the pattern with AI
 2. AI helps write `analysis.md` (Layer 1/2/3 breakdown)
-3. Each week, ask AI to generate a spaced review quiz from `questions/index.md`
+3. AI writes to `diary/YYYY-MM-DD.md` when a study theme emerges
+4. Each week, ask AI to generate a spaced review quiz from `questions/index.md`
 
 ---
-
-A pattern-driven LeetCode study repository for efficient coding interview preparation.
 
 ## Philosophy
 
@@ -36,8 +36,8 @@ Instead of solving problems randomly, this repo groups problems by **Layer 3 pat
 
 | Layer | Focus | Examples |
 |-------|-------|---------|
-| **Layer 3 (Pattern)** | Problem-solving strategy | Two Pointers, Sliding Window, Hash Map, BFS/DFS, Backtracking, DP |
-| **Layer 2 (Algorithm)** | Concrete technique | Binary search impl, Kadane's, Dijkstra, GCD |
+| **Layer 3 (Pattern)** | Problem-solving strategy | Two Pointers, Sliding Window, Stack, Hash Map, BFS/DFS, DP |
+| **Layer 2 (Algorithm)** | Concrete technique | Binary search, Kadane's, Dijkstra, GCD |
 | **Layer 1 (Data Structure)** | Underlying structure | Array, HashMap, Heap, Tree, Graph |
 
 Study Layer 3 first — that's where interview ROI is highest.
@@ -46,14 +46,20 @@ Study Layer 3 first — that's where interview ROI is highest.
 
 ```
 questions/
-└── {pattern}/                      # e.g. hash_map/, two_pointers_sliding_window/
+└── {pattern}/                        # e.g. stack/, hash_table/
+    └── two_pointers/                 # subcategorized when 5+ problems with distinct sub-patterns
+        ├── sliding_window/
+        ├── opposite_direction/
+        └── fast_slow/
     └── {number}_{problem}/
-        ├── question.md             # Problem statement
-        ├── analysis.md             # Layer 1/2/3 breakdown
-        ├── personal_note.md        # Personal insights (gitignored)
-        └── review_history.md       # Study dates + needs_review flag
+        ├── question.md               # Problem statement
+        ├── analysis.md               # Layer 1/2/3 breakdown
+        ├── personal_note.md          # Personal insights
+        └── review_history.md         # Study dates + needs_review flag
 spaced_review/
-└── week_NN_YYYY-MM-DD.md           # Weekly review quizzes
+└── week_NN_YYYY-MM-DD.md             # Weekly review quizzes
+diary/
+└── YYYY-MM-DD.md                     # Daily study themes (auto-written by AI)
 ```
 
 ## Spaced Review
@@ -74,6 +80,6 @@ Problems marked `needs_review: true` are prioritized in weekly review quizzes, w
 
 | Tier | Patterns |
 |------|---------|
-| **1 (Essential)** | two_pointers_sliding_window, hash_map, binary_search, bfs_dfs, backtracking |
+| **1 (Essential)** | two_pointers (sliding_window, opposite_direction, fast_slow), hash_table, binary_search, bfs_dfs, backtracking, stack |
 | **2** | dynamic_programming, heap_priority_queue, topological_sort, union_find, trie |
 | **3** | monotonic_stack, bit_manipulation, greedy, prefix_sums, math |

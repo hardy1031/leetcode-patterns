@@ -1,48 +1,69 @@
-# LeetCode Project
+# AGENTS.md
 
-勉強用のLeetCode回答リポジトリ。
+Instructions for AI agents (Claude, Codex, etc.) working in this repo.
 
-## フォルダ構成
+## What this repo is
+
+A pattern-driven LeetCode study repo. Problems are organized by Layer 3 pattern (Two Pointers, Stack, Hash Map, etc.). The primary workflow is: solve problems, write analysis, do weekly spaced review.
+
+## Files to read first
+
+| File | Why |
+|------|-----|
+| `CLAUDE.md` | Full repo rules, folder structure, study style, diary instructions |
+| `questions/index.md` | Master index of all problems — read before adding a problem or generating a review |
+
+## Folder structure
 
 ```
-LeetCode/
-├── CLAUDE.md
-├── questions/                          # グループ別フォルダ
-│   └── {グループ名}/
-│       ├── README.md                   # グループの説明・共通パターン
-│       └── {番号}_{問題名}/
-│           ├── answers.py              # 回答（複数のSolutionクラス）
-│           ├── tests/
-│           │   └── test.py             # pytest用テスト
-│           └── docs/
-│               └── note.md            # 気づき・考えたこと（短く）
-└── README.md
+questions/
+└── {pattern}/                        # e.g. stack/, two_pointers/sliding_window/
+    └── {number}_{problem_name}/
+        ├── question.md               # Problem statement + links
+        ├── analysis.md               # Layer 3 / Layer 2 / Layer 1 breakdown
+        ├── personal_note.md          # Personal insights — human writes this
+        └── review_history.md         # needs_review flag + study dates
+spaced_review/
+└── week_NN_YYYY-MM-DD.md             # Weekly quiz files (LLM-generated)
+diary/
+└── YYYY-MM-DD.md                     # Daily study themes (LLM writes when theme emerges)
 ```
 
-## ルール
-- 毎回プロジェクト開始時と、このファイルへ書き込みをする際は必ず `AGENTS.md` と `CLAUDE.md` の内容を確認し、1文字でも差分があれば整合するまでプロジェクトを開始しない
-- note.mdは `.docs/principles.md` のフレームワークに従い型だけ作成し、内容は人間が書く
-- answers.pyは中身は書かないが、Solutionクラスの型だけ作る
-- 新しく問題フォルダを作るとき、tests/test.pyは`questions/1_two_sums/tests/test.py`か`questions/greedy_algorithm/121_best_time_to_buy_and_sell_stock/tests/test.py`をテンプレートにして短く書く
-- tests/test.pyの先頭にはdocstringでExamples・Constraintsを記載する（`questions/greedy_algorithm/121_best_time_to_buy_and_sell_stock/tests/test.py`参照）
-- note.mdの先頭には問題タイトルと問題文を記載する（`questions/238_product_of_array_except_self/docs/note.md`参照）
+## Rules
 
-### 問題の追加
-- `questions/{グループ名}/{番号}_{問題名}/` フォルダを作る
-- グループに README.md がなければ作成する
-- フォルダ構成は上記テンプレートに従う
+- Do NOT write code unless explicitly asked
+- Do NOT fill in `personal_note.md` unless explicitly asked
+- When adding a problem: create all 4 files + add a row to `questions/index.md`
+- When updating `needs_review` to false: update both `review_history.md` and `questions/index.md`
+- When generating a weekly review: create a new file in `spaced_review/` — never overwrite existing ones
+- When a study theme emerges mid-session: write it to `diary/YYYY-MM-DD.md` automatically
 
-### 回答 (answers.py)
-- 問題ごとにABC（抽象基底クラス）をinterfaceとして定義する（例: `TwoSum`, `ContainsDuplicate`）
-- interfaceには`@abstractmethod`でLeetCode準拠のメソッドシグネチャを定義する
-- 各回答は `Solution1(TwoSum)`, `Solution2(TwoSum)`, ... のようにinterfaceを継承して定義する
+## analysis.md format
 
-### テスト (tests/test.py)
-- pytestを使用
-- `pytest.mark.parametrize` で全Solutionクラス × 全テストケースを網羅する
-- テストケースはLeetCodeのExamplesを使う
+```
+## Layer 3 — Problem-solving Pattern
+**Pattern:** {pattern name}
+{one-line explanation of why this pattern applies}
 
-### ノート (docs/note.md)
-- criticalな気づきだけを極めて短く書く
-- note.mdに書き込む際は内容を厳しめにチェックし、間違いがあれば必ず指摘する
-- note.mdのセクション構成は `.docs/principles.md` の課題理解フレームワークに従う
+## Layer 2 — Algorithms & Techniques
+- {algorithm name}: {complexity}
+- **Insight:** {the key idea in one sentence}
+
+## Layer 1 — Data Structures
+- {data structure}
+```
+
+## review_history.md format
+
+```
+needs_review: true
+
+## History
+- June 19, 2026
+```
+
+## questions/index.md row format
+
+```
+| {#} | {Problem Name} | {pattern/subfolder} | {Easy/Medium/Hard} | {true/false} | {Month DD, YYYY} |
+```
