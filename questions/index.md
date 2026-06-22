@@ -52,8 +52,8 @@ LLM向け: このファイルで全問題を把握し、各問題の詳細は `{
 | 16 | 3Sum Closest | two_pointers/opposite_direction | Medium | true | June 19, 2026 |
 | 11 | Container With Most Water | two_pointers/opposite_direction | Medium | true | May 25, 2026 |
 | 76 | Minimum Window Substring | two_pointers/sliding_window | Hard | true | Jun 17, 2026 |
-| 20 | Valid Parentheses | stack | Easy | true | June 19, 2026 |
-| 150 | Evaluate Reverse Polish Notation | stack | Medium | true | June 19, 2026 |
-| 739 | Daily Temperatures | stack | Medium | true | Jun 22, 2026 |
-| 496 | Next Greater Element I | stack | Easy | true | Jun 22, 2026 |
-| 1475 | Final Prices With a Special Discount | stack | Easy | true | Jun 22, 2026 |
+| 20 | Valid Parentheses | stack/basic | Easy | true | June 19, 2026 |
+| 150 | Evaluate Reverse Polish Notation | stack/basic | Medium | true | June 19, 2026 |
+| 739 | Daily Temperatures | stack/monotonic | Medium | true | Jun 22, 2026 |
+| 496 | Next Greater Element I | stack/monotonic | Easy | true | Jun 22, 2026 |
+| 1475 | Final Prices With a Special Discount | stack/monotonic | Easy | true | Jun 22, 2026 |

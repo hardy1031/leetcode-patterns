@@ -110,6 +110,7 @@ Subcategorize a pattern folder only when:
 
 **Already subcategorized:**
 - `two_pointers/` → sliding_window, opposite_direction, fast_slow (subcategorized early because the 3 sub-patterns are fundamentally different)
+- `stack/` → basic, monotonic (subcategorized early because the thinking is fundamentally different — basic uses stack for LIFO order, monotonic uses stack to resolve "next greater/smaller" queries in O(n))
 
 **Candidates for future subcategorization:**
 - `dynamic_programming/` → 1D, 2D, interval, knapsack (DP sub-patterns differ enough to warrant early split)
