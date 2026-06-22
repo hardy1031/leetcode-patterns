@@ -56,3 +56,4 @@ LLM向け: このファイルで全問題を把握し、各問題の詳細は `{
 | 150 | Evaluate Reverse Polish Notation | stack | Medium | true | June 19, 2026 |
 | 739 | Daily Temperatures | stack | Medium | true | Jun 22, 2026 |
 | 496 | Next Greater Element I | stack | Easy | true | Jun 22, 2026 |
+| 1475 | Final Prices With a Special Discount | stack | Easy | true | Jun 22, 2026 |
