@@ -58,3 +58,7 @@ LLM向け: このファイルで全問題を把握し、各問題の詳細は `{
 | 496 | Next Greater Element I | stack/monotonic | Easy | true | Jun 22, 2026 |
 | 1475 | Final Prices With a Special Discount | stack/monotonic | Easy | true | Jun 22, 2026 |
 | 853 | Car Fleet | stack/monotonic | Medium | true | Jun 24, 2026 |
+| 704 | Binary Search | binary_search | Easy | true | Jun 24, 2026 |
+| 35 | Search Insert Position | binary_search | Easy | true | Jun 24, 2026 |
+| 74 | Search a 2D Matrix | binary_search | Medium | true | Jun 24, 2026 |
+| 875 | Koko Eating Bananas | binary_search | Medium | true | Jun 24, 2026 |
