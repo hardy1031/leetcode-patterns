@@ -52,3 +52,36 @@ So: all subarrays = (subarrays ending at i=0) ∪ (ending at i=1) ∪ ... ∪ (e
 - Max sum circular subarray → Kadane's twice: `max(kadane_max, total - kadane_min)` (918)
 - Max product subarray → track both min and max (negative × negative flips sign) (152)
 - Max absolute sum → `kadane_max + abs(kadane_min)` (1749)
+
+---
+
+## "First element to the right that beats me" → Monotonic Stack
+
+**Trigger:**
+For each element, find the first element to its right that is greater (or smaller).
+
+**Why the target being different per element matters:**
+Each element has its own unique answer → many elements are unresolved at the same time → you need a structure that holds multiple waiting states. That's why HashMap, two pointers, and greedy all fail:
+
+| Structure | Why it fails |
+|-----------|-------------|
+| HashMap / Set | No positional info — can't tell which waiting element is closest to the right |
+| Two Pointers | Can't hold multiple in-progress states |
+| Greedy | Makes one local choice — can't track multiple waiting elements |
+
+**Why stack specifically:**
+1. Holds multiple unresolved elements
+2. LIFO — checks the most recently added (closest) element first
+3. Descending invariant → if current element can't resolve the top, it can't resolve anything below → early stop
+
+**"Closest" = positional order matters:**
+```
+nums2 = [1, 4, 2, 3]
+```
+When `3` arrives, `1`, `4`, `2` are all waiting.
+- `2`'s answer is `3` (first greater to its right)
+- `1`'s answer is `4` (not `3` — `4` was closer)
+
+A set `{1, 4, 2}` loses this positional info. The stack preserves it.
+
+**Examples:** 739 (Daily Temperatures), 496 (Next Greater Element), 1475 (Final Prices)
