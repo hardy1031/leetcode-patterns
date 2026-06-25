@@ -111,6 +111,7 @@ Subcategorize a pattern folder only when:
 **Already subcategorized:**
 - `two_pointers/` → sliding_window, opposite_direction, fast_slow (subcategorized early because the 3 sub-patterns are fundamentally different)
 - `stack/` → basic, monotonic (subcategorized early because the thinking is fundamentally different — basic uses stack for LIFO order, monotonic uses stack to resolve "next greater/smaller" queries in O(n))
+- `sliding_window/` → fixed_size, variable_size (subcategorized early because fixed_size windows don't need shrink logic — window size is always len(s1); variable_size windows grow and shrink based on a condition)
 
 **Candidates for future subcategorization:**
 - `dynamic_programming/` → 1D, 2D, interval, knapsack (DP sub-patterns differ enough to warrant early split)
@@ -155,6 +156,24 @@ Diary entry format:
 ```
 
 Create the diary file if it doesn't exist. One file per day. Append new themes if the file already exists.
+
+## Daily Reflection (End of Session)
+
+At the end of each session, the user writes a reflection in English. The LLM proofreads the English and saves it to today's diary file.
+
+Rules:
+- The user writes the reflection — the LLM does NOT write it
+- The LLM corrects grammar and unnatural phrasing, but preserves the user's voice and content
+- Show the corrected version to the user before saving, so they can confirm
+- Append to the existing diary file under a `## Reflection` section
+- This is mandatory every session — if the session is ending without a reflection, remind the user
+
+Reflection format:
+```
+## Reflection
+
+{user's text, lightly corrected}
+```
 
 ## LLM Instructions
 

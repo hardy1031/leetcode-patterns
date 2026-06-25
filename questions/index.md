@@ -32,7 +32,7 @@ LLM向け: このファイルで全問題を把握し、各問題の詳細は `{
 | # | Problem | Pattern Folder | Difficulty | needs_review | Last Review |
 |---|---------|---------------|------------|--------------|-------------|
 | 1 | Two Sum | hash_table | Easy | true | May 27, 2026 |
-| 121 | Best Time to Buy and Sell Stock | two_pointers/sliding_window | Easy | true | May 27, 2026 |
+| 121 | Best Time to Buy and Sell Stock | two_pointers/sliding_window/variable_size | Easy | true | May 27, 2026 |
 | 153 | Find Minimum in Rotated Sorted Array | binary_search | Medium | true | May 27, 2026 |
 | 217 | Contains Duplicate | hash_table | Easy | true | May 27, 2026 |
 | 238 | Product of Array Except Self | prefix_sums | Medium | true | May 27, 2026 |
@@ -43,15 +43,15 @@ LLM向け: このファイルで全問題を把握し、各問題の詳細は `{
 | 36 | Valid Sudoku | hash_table | Medium | true | May 27, 2026 |
 | 202 | Happy Number | hash_table | Easy | true | May 20, 2026 |
 | 128 | Longest Consecutive Sequence | hash_table | Medium | true | May 21, 2026 |
-| 3 | Longest Substring Without Repeating Characters | two_pointers/sliding_window | Medium | true | May 22, 2026 |
-| 567 | Permutation in String | two_pointers/sliding_window | Medium | true | May 22, 2026 |
-| 424 | Longest Repeating Character Replacement | two_pointers/sliding_window | Medium | true | May 22, 2026 |
+| 3 | Longest Substring Without Repeating Characters | two_pointers/sliding_window/variable_size | Medium | true | May 22, 2026 |
+| 567 | Permutation in String | two_pointers/sliding_window/fixed_size | Medium | true | May 22, 2026 |
+| 424 | Longest Repeating Character Replacement | two_pointers/sliding_window/variable_size | Medium | true | May 22, 2026 |
 | 125 | Valid Palindrome | two_pointers/opposite_direction | Easy | true | May 25, 2026 |
 | 167 | Two Sum II | two_pointers/opposite_direction | Medium | true | May 25, 2026 |
 | 15 | 3Sum | two_pointers/opposite_direction | Medium | true | May 25, 2026 |
 | 16 | 3Sum Closest | two_pointers/opposite_direction | Medium | true | June 19, 2026 |
 | 11 | Container With Most Water | two_pointers/opposite_direction | Medium | true | May 25, 2026 |
-| 76 | Minimum Window Substring | two_pointers/sliding_window | Hard | true | Jun 17, 2026 |
+| 76 | Minimum Window Substring | two_pointers/sliding_window/variable_size | Hard | true | Jun 17, 2026 |
 | 20 | Valid Parentheses | stack/basic | Easy | true | June 19, 2026 |
 | 150 | Evaluate Reverse Polish Notation | stack/basic | Medium | true | June 19, 2026 |
 | 739 | Daily Temperatures | stack/monotonic | Medium | true | Jun 22, 2026 |
@@ -62,3 +62,4 @@ LLM向け: このファイルで全問題を把握し、各問題の詳細は `{
 | 35 | Search Insert Position | binary_search | Easy | true | Jun 24, 2026 |
 | 74 | Search a 2D Matrix | binary_search | Medium | true | Jun 24, 2026 |
 | 875 | Koko Eating Bananas | binary_search | Medium | true | Jun 24, 2026 |
+| 1456 | Maximum Number of Vowels in a Substring | two_pointers/sliding_window/fixed_size | Medium | true | Jun 25, 2026 |
