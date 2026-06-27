@@ -61,5 +61,7 @@ LLM向け: このファイルで全問題を把握し、各問題の詳細は `{
 | 704 | Binary Search | binary_search | Easy | true | Jun 24, 2026 |
 | 35 | Search Insert Position | binary_search | Easy | true | Jun 24, 2026 |
 | 74 | Search a 2D Matrix | binary_search | Medium | true | Jun 24, 2026 |
-| 875 | Koko Eating Bananas | binary_search | Medium | true | Jun 24, 2026 |
+| 875 | Koko Eating Bananas | binary_search/on_answer_space | Medium | true | Jun 24, 2026 |
 | 1456 | Maximum Number of Vowels in a Substring | two_pointers/sliding_window/fixed_size | Medium | true | Jun 25, 2026 |
+| 206 | Reverse Linked List | linked_list/in_place_reversal | Easy | true | Jun 26, 2026 |
+| 21 | Merge Two Sorted Lists | linked_list/dummy_node | Easy | true | Jun 27, 2026 |

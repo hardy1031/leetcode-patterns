@@ -35,9 +35,10 @@ LeetCode/
 
 ## Pattern Tiers (priority order)
 
-**Tier 1 (essential):** two_pointers (sliding_window, opposite_direction, fast_slow), hash_map, binary_search, bfs_dfs, backtracking
+**Tier 1 (essential):** two_pointers (sliding_window, opposite_direction, fast_slow), hash_map, binary_search (on_array, on_answer_space), bfs_dfs, backtracking
 **Tier 2:** dynamic_programming, heap_priority_queue, topological_sort, union_find, trie
 **Tier 3:** monotonic_stack, bit_manipulation, greedy, prefix_sums, math
+**Linked List patterns:** dummy_node, in_place_reversal, fast_slow_pointers, two_pointers
 
 ## Rules
 
@@ -112,6 +113,7 @@ Subcategorize a pattern folder only when:
 - `two_pointers/` → sliding_window, opposite_direction, fast_slow (subcategorized early because the 3 sub-patterns are fundamentally different)
 - `stack/` → basic, monotonic (subcategorized early because the thinking is fundamentally different — basic uses stack for LIFO order, monotonic uses stack to resolve "next greater/smaller" queries in O(n))
 - `sliding_window/` → fixed_size, variable_size (subcategorized early because fixed_size windows don't need shrink logic — window size is always len(s1); variable_size windows grow and shrink based on a condition)
+- `linked_list/` → in_place_reversal, dummy_node, fast_slow_pointers, two_pointers (subcategorized early because each sub-pattern uses fundamentally different pointer mechanics)
 
 **Candidates for future subcategorization:**
 - `dynamic_programming/` → 1D, 2D, interval, knapsack (DP sub-patterns differ enough to warrant early split)
