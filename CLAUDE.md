@@ -12,6 +12,10 @@ Pattern-based learning repo for coding interview prep.
 
 Approach: solve 5–10 problems of the same pattern in a row. Brain generalizes faster.
 
+## Language
+
+All content in this repo must be written in English — diary entries, analysis files, personal notes, and LLM-generated text. The user may speak to the LLM in any language, but all file output must be in English.
+
 ## Folder Structure
 
 ```
