@@ -66,3 +66,5 @@ LLM向け: このファイルで全問題を把握し、各問題の詳細は `{
 | 206 | Reverse Linked List | linked_list/in_place_reversal | Easy | true | Jun 26, 2026 |
 | 21 | Merge Two Sorted Lists | linked_list/dummy_node | Easy | true | Jun 27, 2026 |
 | 92 | Reverse Linked List II | linked_list/in_place_reversal | Medium | true | June 29, 2026 |
+| 141 | Linked List Cycle | linked_list/fast_slow_pointers | Easy | true | June 29, 2026 |
+| 143 | Reorder List | linked_list/fast_slow_pointers | Medium | true | June 29, 2026 |
