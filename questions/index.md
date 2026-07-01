@@ -71,3 +71,5 @@ LLM向け: このファイルで全問題を把握し、各問題の詳細は `{
 | 876 | Middle of the Linked List | linked_list/fast_slow_pointers | Easy | true | June 29, 2026 |
 | 19 | Remove Nth Node From End of List | linked_list/two_pointers | Medium | true | June 30, 2026 |
 | 203 | Remove Linked List Elements | linked_list/dummy_node | Easy | true | June 30, 2026 |
+| 61 | Rotate List | linked_list/two_pointers | Medium | true | June 30, 2026 |
+| 82 | Remove Duplicates from Sorted List II | linked_list/dummy_node | Medium | true | June 30, 2026 |

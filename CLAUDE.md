@@ -163,6 +163,13 @@ Diary entry format:
 
 Create the diary file if it doesn't exist. One file per day. Append new themes if the file already exists.
 
+At the start or end of each diary file, always include a **Problems Solved** section listing every problem solved that day:
+
+```
+## Problems Solved
+- {number}. {title} ({difficulty}) — {pattern}
+```
+
 ## Daily Reflection (End of Session)
 
 At the end of each session, the user writes a reflection in English. The LLM proofreads the English and saves it to today's diary file.
