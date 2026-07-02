@@ -73,3 +73,4 @@ LLM向け: このファイルで全問題を把握し、各問題の詳細は `{
 | 203 | Remove Linked List Elements | linked_list/dummy_node | Easy | true | June 30, 2026 |
 | 61 | Rotate List | linked_list/two_pointers | Medium | true | June 30, 2026 |
 | 82 | Remove Duplicates from Sorted List II | linked_list/dummy_node | Medium | true | June 30, 2026 |
+| 138 | Copy List with Random Pointer | hash_map | Medium | true | July 1, 2026 |
