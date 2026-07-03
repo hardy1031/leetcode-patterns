@@ -75,4 +75,5 @@ LLM向け: このファイルで全問題を把握し、各問題の詳細は `{
 | 82 | Remove Duplicates from Sorted List II | linked_list/dummy_node | Medium | true | June 30, 2026 |
 | 138 | Copy List with Random Pointer | hash_map | Medium | true | July 1, 2026 |
 | 2 | Add Two Numbers | linked_list/dummy_node | Medium | true | July 1, 2026 |
-| 287 | Find the Duplicate Number | linked_list/fast_slow_pointers | Medium | true | July 1, 2026 |
+| 287 | Find the Duplicate Number | linked_list/fast_slow_pointers | Medium | true | July 2, 2026 |
+| 142 | Linked List Cycle II | linked_list/fast_slow_pointers/floyd_cycle_detection | Medium | true | July 3, 2026 |
