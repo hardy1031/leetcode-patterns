@@ -77,3 +77,7 @@ LLM向け: このファイルで全問題を把握し、各問題の詳細は `{
 | 2 | Add Two Numbers | linked_list/dummy_node | Medium | true | July 1, 2026 |
 | 287 | Find the Duplicate Number | linked_list/fast_slow_pointers | Medium | true | July 2, 2026 |
 | 142 | Linked List Cycle II | linked_list/fast_slow_pointers/floyd_cycle_detection | Medium | true | July 3, 2026 |
+| 146 | LRU Cache | linked_list/doubly_linked_list | Medium | true | July 3, 2026 |
+| 226 | Invert Binary Tree | tree/dfs/basic | Easy | true | July 3, 2026 |
+| 104 | Maximum Depth of Binary Tree | tree/dfs/basic | Easy | true | July 3, 2026 |
+| 543 | Diameter of Binary Tree | tree/dfs/path_problems | Easy | true | July 3, 2026 |
