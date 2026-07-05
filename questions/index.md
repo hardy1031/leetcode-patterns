@@ -80,4 +80,7 @@ LLM向け: このファイルで全問題を把握し、各問題の詳細は `{
 | 146 | LRU Cache | linked_list/doubly_linked_list | Medium | true | July 3, 2026 |
 | 226 | Invert Binary Tree | tree/dfs/basic | Easy | true | July 3, 2026 |
 | 104 | Maximum Depth of Binary Tree | tree/dfs/basic | Easy | true | July 3, 2026 |
-| 543 | Diameter of Binary Tree | tree/dfs/path_problems | Easy | true | July 3, 2026 |
+| 543 | Diameter of Binary Tree | tree/dfs/retval_not_answer | Easy | true | July 3, 2026 |
+| 110 | Balanced Binary Tree | tree/dfs/retval_not_answer | Easy | true | July 4, 2026 |
+| 100 | Same Tree | tree/dfs/basic | Easy | true | July 4, 2026 |
+| 572 | Subtree of Another Tree | tree/dfs/basic | Easy | true | July 4, 2026 |
