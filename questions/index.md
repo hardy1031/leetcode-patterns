@@ -84,3 +84,6 @@ LLM向け: このファイルで全問題を把握し、各問題の詳細は `{
 | 110 | Balanced Binary Tree | tree/dfs/retval_not_answer | Easy | true | July 4, 2026 |
 | 100 | Same Tree | tree/dfs/basic | Easy | true | July 4, 2026 |
 | 572 | Subtree of Another Tree | tree/dfs/basic | Easy | true | July 4, 2026 |
+| 235 | Lowest Common Ancestor of a BST | tree/bst | Medium | true | July 5, 2026 |
+| 102 | Binary Tree Level Order Traversal | tree/bfs/level_batching | Medium | true | July 5, 2026 |
+| 199 | Binary Tree Right Side View | tree/bfs/level_batching | Medium | true | July 5, 2026 |
