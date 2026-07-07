@@ -78,12 +78,14 @@ LLM向け: このファイルで全問題を把握し、各問題の詳細は `{
 | 287 | Find the Duplicate Number | linked_list/fast_slow_pointers | Medium | true | July 2, 2026 |
 | 142 | Linked List Cycle II | linked_list/fast_slow_pointers/floyd_cycle_detection | Medium | true | July 3, 2026 |
 | 146 | LRU Cache | linked_list/doubly_linked_list | Medium | true | July 3, 2026 |
-| 226 | Invert Binary Tree | tree/dfs/basic | Easy | true | July 3, 2026 |
-| 104 | Maximum Depth of Binary Tree | tree/dfs/basic | Easy | true | July 3, 2026 |
-| 543 | Diameter of Binary Tree | tree/dfs/retval_not_answer | Easy | true | July 3, 2026 |
-| 110 | Balanced Binary Tree | tree/dfs/retval_not_answer | Easy | true | July 4, 2026 |
-| 100 | Same Tree | tree/dfs/basic | Easy | true | July 4, 2026 |
-| 572 | Subtree of Another Tree | tree/dfs/basic | Easy | true | July 4, 2026 |
+| 226 | Invert Binary Tree | tree/dfs/bottom_up/basic | Easy | true | July 3, 2026 |
+| 104 | Maximum Depth of Binary Tree | tree/dfs/bottom_up/basic | Easy | true | July 3, 2026 |
+| 543 | Diameter of Binary Tree | tree/dfs/bottom_up/retval_not_answer | Easy | true | July 3, 2026 |
+| 110 | Balanced Binary Tree | tree/dfs/bottom_up/retval_not_answer | Easy | true | July 4, 2026 |
+| 100 | Same Tree | tree/dfs/bottom_up/basic | Easy | true | July 4, 2026 |
+| 572 | Subtree of Another Tree | tree/dfs/bottom_up/basic | Easy | true | July 4, 2026 |
 | 235 | Lowest Common Ancestor of a BST | tree/bst | Medium | true | July 5, 2026 |
 | 102 | Binary Tree Level Order Traversal | tree/bfs/level_batching | Medium | true | July 5, 2026 |
 | 199 | Binary Tree Right Side View | tree/bfs/level_batching | Medium | true | July 5, 2026 |
+| 1448 | Count Good Nodes in Binary Tree | tree/dfs/top_down | Medium | true | July 7, 2026 |
+| 98 | Validate Binary Search Tree | tree/dfs/top_down | Medium | true | July 7, 2026 |
