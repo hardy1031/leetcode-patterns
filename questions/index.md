@@ -89,3 +89,7 @@ LLM向け: このファイルで全問題を把握し、各問題の詳細は `{
 | 199 | Binary Tree Right Side View | tree/bfs/level_batching | Medium | true | July 5, 2026 |
 | 1448 | Count Good Nodes in Binary Tree | tree/dfs/top_down | Medium | true | July 7, 2026 |
 | 98 | Validate Binary Search Tree | tree/dfs/top_down | Medium | true | July 7, 2026 |
+| 230 | Kth Smallest Element in a BST | tree/bst/in_order | Medium | true | July 8, 2026 |
+| 530 | Minimum Absolute Difference in BST | tree/bst/in_order | Easy | true | July 8, 2026 |
+| 538 | Convert BST to Greater Tree | tree/bst/in_order | Medium | true | July 8, 2026 |
+| 105 | Construct Binary Tree from Preorder and Inorder Traversal | tree/construction | Medium | true | July 8, 2026 |
