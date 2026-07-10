@@ -94,3 +94,4 @@ LLM向け: このファイルで全問題を把握し、各問題の詳細は `{
 | 538 | Convert BST to Greater Tree | tree/bst/in_order | Medium | true | July 8, 2026 |
 | 105 | Construct Binary Tree from Preorder and Inorder Traversal | tree/construction | Medium | true | July 8, 2026 |
 | 703 | Kth Largest Element in a Stream | heap_priority_queue | Easy | true | July 9, 2026 |
+| 1046 | Last Stone Weight | heap_priority_queue | Easy | true | Jul 9, 2026 |
