@@ -98,3 +98,4 @@ LLM向け: このファイルで全問題を把握し、各問題の詳細は `{
 | 973 | K Closest Points to Origin | heap_priority_queue | Medium | true | Jul 11, 2026 |
 | 621 | Task Scheduler | heap_priority_queue | Medium | true | Jul 11, 2026 |
 | 208 | Implement Trie (Prefix Tree) | trie | Medium | true | Jul 12, 2026 |
+| 211 | Design Add and Search Words Data Structure | trie | Medium | true | Jul 13, 2026 |
