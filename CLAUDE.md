@@ -188,6 +188,53 @@ Reflection format:
 {user's text, lightly corrected}
 ```
 
+## Pattern Templates
+
+File location: `patterns/{pattern_name}.md`
+
+A pattern template is a language-agnostic pseudocode skeleton that captures the reusable structure of a Layer 3 pattern. Templates are built up incrementally as the user solves problems — not created upfront.
+
+### When to create or update a template
+- When the user explicitly asks to add a template
+- When a new sub-variant emerges that doesn't fit the existing template
+
+### Template format
+```
+# {Pattern Name} Template
+
+## Pseudocode
+
+def approach(inputs):
+    # setup
+
+    def helper(...):
+        if termination_condition:
+            record result
+            return
+
+        for/two-branch logic:
+            choose
+            explore
+            unchoose
+
+    helper(initial_state)
+    return result
+
+## Variants
+- {variant name}: {one-line difference}
+
+## When to use
+- {trigger condition}
+```
+
+### LLM instructions
+- Do NOT create a template file unless the user asks
+- When asked, create `patterns/{pattern_name}.md` and note it in the Existing templates list below
+- Update the Variants section as new sub-patterns emerge
+
+**Existing templates:**
+- `patterns/backtracking.md`
+
 ## LLM Instructions
 
 - Do NOT write code or fill in personal_note.md unless explicitly asked

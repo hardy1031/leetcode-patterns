@@ -99,3 +99,6 @@ LLM向け: このファイルで全問題を把握し、各問題の詳細は `{
 | 621 | Task Scheduler | heap_priority_queue | Medium | true | Jul 11, 2026 |
 | 208 | Implement Trie (Prefix Tree) | trie | Medium | true | Jul 12, 2026 |
 | 211 | Design Add and Search Words Data Structure | trie | Medium | true | Jul 13, 2026 |
+| 78 | Subsets | backtracking | Medium | true | Jul 14, 2026 |
+| 39 | Combination Sum | backtracking | Medium | true | Jul 14, 2026 |
+| 46 | Permutations | backtracking | Medium | true | Jul 14, 2026 |
